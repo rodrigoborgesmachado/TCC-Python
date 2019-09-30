@@ -1,0 +1,79 @@
+Sem log:
+5 tweets
+.json;.csv;.xml;.sql
+
+	Inicio:
+	2019-09-30 15:16:35.006628
+	
+	Fim da requisição:
+	2019-09-30 15:16:48.878823
+	
+	Fim para salvar arquivo:
+	2019-09-30 15:17:38.946802
+
+Com log:
+5 tweets
+.json;.csv;.xml;.sql
+
+	Inicio:
+	2019-09-30 15:18:55.322121
+	
+	Fim da requisição:
+	2019-09-30 15:19:09.598986
+	
+	Fim para salvar arquivo:
+	2019-09-30 15:20:36.058308
+	
+	
+Sem log:
+20 tweets
+.json;.csv;.xml;.sql
+
+	Inicio:
+	2019-09-30 15:16:35.006628
+	
+	Fim da requisição:
+	2019-09-30 15:16:48.878823
+	
+	Fim para salvar arquivo:
+	2019-09-30 15:17:38.946802
+
+Com log:
+20 tweets
+.json;.csv;.xml;.sql
+
+	Inicio:
+	2019-09-30 15:21:27.714153
+	
+	Fim da requisição:
+	2019-09-30 15:22:55.294087
+	
+	Fim para salvar arquivo:
+	2019-09-30 15:32:42.337851
+	
+	
+Sem log:
+20 tweets
+.json;.csv;.xml;.sql
+
+	Inicio:
+	2019-09-30 15:36:05.265783
+	
+	Fim da requisição:
+	2019-09-30 15:38:08.270594
+	
+	Fim para salvar arquivo:
+	2019-09-30 15:38:09.679436
+
+Com log:
+20 tweets
+.json;.csv;.xml;
+
+	Inicio:
+	2019-09-30 15:33:35.778370
+	
+	Fim da requisição:
+	2019-09-30 15:35:32.738983
+	
+	Fim para salvar arquivo:
+	2019-09-30 15:35:34.004717
