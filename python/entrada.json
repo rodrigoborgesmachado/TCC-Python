@@ -1,0 +1,17 @@
+[{
+	"use_limit":true,
+	"max_tweets":10,
+	"query_search":"CVE",
+	"by_username":"",
+	"use_date":false,
+	"date_since":"2000/1/1",
+	"date_until":"2000/1/1",
+	"top_tweets":false,
+	"use_place":false,
+	"place":"Berlin, Germany",
+	"area":"50km",
+	"use_geoLocales":false,
+	"geo":"55.75, 37.61",
+	"arquivo_saida":".json;.csv;.xml;.sql",
+	"log":true
+}]

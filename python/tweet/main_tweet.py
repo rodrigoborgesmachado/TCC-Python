@@ -12,7 +12,7 @@ class Tweets:
             x = fil.query_search
             tweetCriteria.setQuerySearch(x)                                           
 
-        if fil.max_tweets > 0 :
+        if fil.use_limit:
             x = fil.max_tweets
             tweetCriteria.setMaxTweets(x)
         
@@ -32,38 +32,39 @@ class Tweets:
         if fil.use_place :
             x = fil.use_place
             tweetCriteria.setNear(x)
-
-        if fil.geo != "" :
-            x = fil.geo
-            tweetCriteria.setNear(x)
-
-        if fil.area != "":
             x = fil.area
             tweetCriteria.setWithin(x)
+
+        if fil.use_geoLocales == True :
+            x = fil.geo
+            tweetCriteria.setNear(x)
+            
 
         obj = []
         conseguiu = False
         imp = []
-
-        while conseguiu == False:
+        consegue = 5
+        while conseguiu == False and consegue > 0:
             try:
                 imp = got.manager.TweetManager.getTweets(tweetCriteria)
                 conseguiu = True
+                consegue = 5
             except:
+                consegue = consegue -1
                 conseguiu = False
         
         for tweet in imp:
             ob = {
-						"ID:" : tweet.id,
-						"PERMALINK:" : tweet.permalink,
-						"USERNAME:" : tweet.username,
-						"TEXT:" : tweet.text,
-						"DATE:" : tweet.date.strftime("%d/%m/%y"),
-						"RETWEETS:" : tweet.retweets,
-						"FAVORITES:" : tweet.favorites,
-						"MENTIONS:" : tweet.mentions,
-						"HASHTAGS:" : tweet.hashtags,
-						"GEO:" : tweet.geo
+						"ID" : tweet.id,
+						"PERMALINK" : tweet.permalink,
+						"USERNAME" : tweet.username,
+						"TEXT" : tweet.text,
+						"DATE" : tweet.date.strftime("%d/%m/%y"),
+						"RETWEETS" : tweet.retweets,
+						"FAVORITES" : tweet.favorites,
+						"MENTIONS" : tweet.mentions,
+						"HASHTAGS" : tweet.hashtags,
+						"GEO" : tweet.geo
 				  }
             obj.append(ob)
         return obj

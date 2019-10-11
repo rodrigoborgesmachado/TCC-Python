@@ -1,0 +1,12 @@
+01/10/2019 21:08:32- -------------------------Iniciando
+01/10/2019 21:08:33- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.csv
+01/10/2019 21:08:33- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.xml
+01/10/2019 21:08:34- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.json
+01/10/2019 21:08:34- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\pckdb.db3
+01/10/2019 21:09:04- Erro no execute: DROP TABLE RETORNO. Erro: database table is locked
+database table is locked
+01/10/2019 21:09:35- Erro no execute: DROP TABLE RETORNO. Erro: database table is locked
+database table is locked
+01/10/2019 21:10:05- Erro no execute: DROP TABLE INCREMENTAIS. Erro: database table is locked
+database table is locked
+01/10/2019 21:13:13- -------------------------Finalizado

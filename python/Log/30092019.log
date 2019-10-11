@@ -37505,3 +37505,135 @@ database table is locked
 30/09/2019 15:38:08- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.xml
 30/09/2019 15:38:09- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.json
 30/09/2019 15:38:09- -------------------------Finalizado
+30/09/2019 15:40:38- -------------------------Iniciando
+30/09/2019 15:40:39- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.csv
+30/09/2019 15:40:39- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.xml
+30/09/2019 15:40:40- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.json
+30/09/2019 15:40:40- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\pckdb.db3
+30/09/2019 15:41:10- Erro no execute: DROP TABLE RETORNO. Erro: database table is locked
+database table is locked
+30/09/2019 15:41:20- Erro no execute: DROP TABLE INCREMENTAIS. Erro: SQL logic error
+no such table: INCREMENTAIS
+30/09/2019 15:41:21- Problem on the sentence. Sentence: SELECT 1 FROM RETORNO. Erro: SQL logic error
+no such table: RETORNO
+30/09/2019 15:41:21- Erro no execute: SELECT 1 FROM INCREMENTAIS. Erro: SQL logic error
+no such table: INCREMENTAIS
+30/09/2019 15:41:21- Erro no execute: SELECT ID FROM RETORNO. Erro: SQL logic error
+no such column: ID
+30/09/2019 15:41:21- Erro no execute: SELECT PERMALINK FROM RETORNO. Erro: SQL logic error
+no such column: PERMALINK
+30/09/2019 15:41:22- Erro no execute: SELECT USERNAME FROM RETORNO. Erro: SQL logic error
+no such column: USERNAME
+30/09/2019 15:41:22- Erro no execute: SELECT TEXT FROM RETORNO. Erro: SQL logic error
+no such column: TEXT
+30/09/2019 15:41:22- Erro no execute: SELECT DATE FROM RETORNO. Erro: SQL logic error
+no such column: DATE
+30/09/2019 15:41:22- Erro no execute: SELECT RETWEETS FROM RETORNO. Erro: SQL logic error
+no such column: RETWEETS
+30/09/2019 15:41:22- Erro no execute: SELECT FAVORITES FROM RETORNO. Erro: SQL logic error
+no such column: FAVORITES
+30/09/2019 15:41:22- Erro no execute: SELECT MENTIONS FROM RETORNO. Erro: SQL logic error
+no such column: MENTIONS
+30/09/2019 15:41:22- Erro no execute: SELECT HASHTAGS FROM RETORNO. Erro: SQL logic error
+no such column: HASHTAGS
+30/09/2019 15:41:23- Erro no execute: SELECT GEO FROM RETORNO. Erro: SQL logic error
+no such column: GEO
+30/09/2019 15:45:08- Erro no execute: DROP TABLE INCREMENTAIS. Erro: database table is locked
+database table is locked
+30/09/2019 15:45:08- -------------------------Finalizado
+30/09/2019 16:06:53- -------------------------Iniciando
+30/09/2019 16:06:53- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.csv
+30/09/2019 16:06:54- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.xml
+30/09/2019 16:06:54- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.json
+30/09/2019 16:06:54- -------------------------Finalizado
+30/09/2019 16:23:24- -------------------------Iniciando
+30/09/2019 16:23:24- Erro ao abrir o arquivo de entrada. Erro: Não foi possível localizar o arquivo 'C:\Users\rodri\OneDrive\Área'.
+30/09/2019 16:23:24- Erro ao carregar os parâmetros.
+30/09/2019 16:26:36- -------------------------Iniciando
+30/09/2019 16:26:36- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.csv
+30/09/2019 16:26:36- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.xml
+30/09/2019 16:26:37- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.json
+30/09/2019 16:26:37- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\pckdb.db3
+30/09/2019 16:26:50- Problem on the sentence. Sentence: SELECT 1 FROM RETORNO. Erro: SQL logic error
+no such table: RETORNO
+30/09/2019 16:26:50- Problem on the sentence. Sentence: SELECT 1 FROM RETORNO. Erro: SQL logic error
+no such table: RETORNO
+30/09/2019 16:26:51- Erro no execute: SELECT 1 FROM INCREMENTAIS. Erro: SQL logic error
+no such table: INCREMENTAIS
+30/09/2019 16:26:51- Erro no execute: SELECT ID FROM RETORNO. Erro: SQL logic error
+no such column: ID
+30/09/2019 16:26:51- Erro no execute: SELECT PERMALINK FROM RETORNO. Erro: SQL logic error
+no such column: PERMALINK
+30/09/2019 16:26:52- Erro no execute: SELECT USERNAME FROM RETORNO. Erro: SQL logic error
+no such column: USERNAME
+30/09/2019 16:26:52- Erro no execute: SELECT TEXT FROM RETORNO. Erro: SQL logic error
+no such column: TEXT
+30/09/2019 16:26:52- Erro no execute: SELECT DATE FROM RETORNO. Erro: SQL logic error
+no such column: DATE
+30/09/2019 16:26:52- Erro no execute: SELECT RETWEETS FROM RETORNO. Erro: SQL logic error
+no such column: RETWEETS
+30/09/2019 16:26:52- Erro no execute: SELECT FAVORITES FROM RETORNO. Erro: SQL logic error
+no such column: FAVORITES
+30/09/2019 16:26:52- Erro no execute: SELECT MENTIONS FROM RETORNO. Erro: SQL logic error
+no such column: MENTIONS
+30/09/2019 16:26:53- Erro no execute: SELECT HASHTAGS FROM RETORNO. Erro: SQL logic error
+no such column: HASHTAGS
+30/09/2019 16:26:53- Erro no execute: SELECT GEO FROM RETORNO. Erro: SQL logic error
+no such column: GEO
+30/09/2019 16:30:09- Erro no execute: DROP TABLE INCREMENTAIS. Erro: database table is locked
+database table is locked
+30/09/2019 16:30:09- -------------------------Finalizado
+30/09/2019 16:31:53- -------------------------Iniciando
+30/09/2019 16:31:53- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.csv
+30/09/2019 16:31:54- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.xml
+30/09/2019 16:31:54- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.json
+30/09/2019 16:31:54- -------------------------Finalizado
+30/09/2019 16:33:08- -------------------------Iniciando
+30/09/2019 16:33:09- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.csv
+30/09/2019 16:33:09- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.xml
+30/09/2019 16:33:10- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.json
+30/09/2019 16:33:10- -------------------------Finalizado
+30/09/2019 16:34:21- -------------------------Iniciando
+30/09/2019 16:34:21- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.csv
+30/09/2019 16:34:21- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.xml
+30/09/2019 16:34:22- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.json
+30/09/2019 16:34:22- -------------------------Finalizado
+30/09/2019 16:35:24- -------------------------Iniciando
+30/09/2019 16:35:24- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.csv
+30/09/2019 16:35:25- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.xml
+30/09/2019 16:35:25- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.json
+30/09/2019 16:35:25- -------------------------Finalizado
+30/09/2019 16:36:47- -------------------------Iniciando
+30/09/2019 16:36:47- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.csv
+30/09/2019 16:36:47- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.xml
+30/09/2019 16:36:48- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.json
+30/09/2019 16:36:48- -------------------------Finalizado
+30/09/2019 16:37:52- -------------------------Iniciando
+30/09/2019 16:37:53- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.csv
+30/09/2019 16:37:53- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.xml
+30/09/2019 16:37:53- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.json
+30/09/2019 16:37:54- -------------------------Finalizado
+30/09/2019 16:40:59- -------------------------Iniciando
+30/09/2019 16:40:59- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.csv
+30/09/2019 16:40:59- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.xml
+30/09/2019 16:41:00- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.json
+30/09/2019 16:41:00- -------------------------Finalizado
+30/09/2019 16:43:34- -------------------------Iniciando
+30/09/2019 16:43:35- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.csv
+30/09/2019 16:43:35- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.xml
+30/09/2019 16:43:36- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.json
+30/09/2019 16:43:36- -------------------------Finalizado
+30/09/2019 19:39:33- -------------------------Iniciando
+30/09/2019 19:39:36- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.csv
+30/09/2019 19:40:51- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.xml
+30/09/2019 19:44:44- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\saida.json
+30/09/2019 19:44:44- Arquivos de saídaC:\Users\rodri\OneDrive\Área de Trabalho\TCC\python\OUT\pckdb.db3
+30/09/2019 19:45:14- Erro no execute: DROP TABLE RETORNO. Erro: database table is locked
+database table is locked
+30/09/2019 19:45:44- Erro no execute: DROP TABLE RETORNO. Erro: database table is locked
+database table is locked
+30/09/2019 19:46:14- Erro no execute: DROP TABLE INCREMENTAIS. Erro: database table is locked
+database table is locked
+30/09/2019 22:10:21- Erro no execute: DROP TABLE INCREMENTAIS. Erro: database table is locked
+database table is locked
+30/09/2019 22:10:21- -------------------------Finalizado
