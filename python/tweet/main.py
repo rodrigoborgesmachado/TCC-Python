@@ -42,8 +42,8 @@ for fill in reader:
     filt.query_search = fill["query_search"]
     filt.by_username = fill["by_username"]
     filt.use_date = fill["use_date"] 
-    filt.date_since = fill["date_since"]
-    filt.date_until = fill["date_until"]
+    filt.date_since = datetime.strptime(fill["date_since"], '%Y/%m/%d')
+    filt.date_until = datetime.strptime(fill["date_until"], '%Y/%m/%d')
     filt.top_tweets = fill["top_tweets"] 
     filt.use_place = fill["use_place"] 
     filt.place = fill["place"]
@@ -54,6 +54,10 @@ for fill in reader:
     
     if fill["log"] == True:
         log = "-l"
+print("Data inicial")
+print(filt.date_since.strftime("%Y-%m-%d"))
+print("Data final")
+print(filt.date_until.strftime("%Y-%m-%d"))
 
 fil.close()
 
@@ -70,8 +74,10 @@ results.append("USERNAME")
 
 primeiro = True
 
+buscarUsuarios = False
+
 #Se houver alguma busca a mais para ser feita no tweet, vai buscas
-if len(results) > 0 :
+if len(results) > 0  and buscarUsuarios:
     for js in imp1:
         for st in results: 
             filt.use_date = False

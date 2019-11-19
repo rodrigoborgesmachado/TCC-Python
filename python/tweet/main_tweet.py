@@ -1,6 +1,6 @@
 import GetOldTweets3 as got
 import filters
-from datetime import datetime
+import datetime
 
 class Tweets:
 
@@ -24,10 +24,8 @@ class Tweets:
             tweetCriteria.setTopTweets(True)
 
         if fil.use_date :
-            x = fil.date_since.strftime("%yyyy-%mm%dd")
-            tweetCriteria.setSince(x)
-            x = fil.date_until.strftime("%yyyy-%mm%dd")
-            tweetCriteria.setUntil(x)
+            tweetCriteria.setSince(fil.date_since.strftime("%Y-%m-%d"))
+            tweetCriteria.setUntil(fil.date_until.strftime("%Y-%m-%d"))
 
         if fil.use_place :
             x = fil.use_place
@@ -38,7 +36,6 @@ class Tweets:
         if fil.use_geoLocales == True :
             x = fil.geo
             tweetCriteria.setNear(x)
-            
 
         obj = []
         conseguiu = False
@@ -52,7 +49,7 @@ class Tweets:
             except:
                 consegue = consegue -1
                 conseguiu = False
-        
+        ultimo = None
         for tweet in imp:
             ob = {
 						"ID" : tweet.id,
@@ -67,6 +64,21 @@ class Tweets:
 						"GEO" : tweet.geo
 				  }
             obj.append(ob)
+            ultimo = tweet
+        
+        if ultimo is None:
+            print("Retorno vazio")
+            if conseguiu :
+                fil.date_until = fil.date_until - datetime.timedelta(days=1)
+                return Tweets._searchTweets(fil)
+            return obj
+        if ultimo.date.year != fil.date_since.year or ultimo.date.month != fil.date_since.month or ultimo.date.day != fil.date_since.day:
+            print("Deu errado a busca, irá fazer novamente")
+            print(ultimo.date.strftime("%d/%m/%y"))
+            print(fil.date_since.strftime("%d/%m/%y"))
+            fil.date_until = ultimo.date
+            obj += Tweets._searchTweets(fil)
+			
         return obj
         
         
